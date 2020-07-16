@@ -1,6 +1,6 @@
 function maiorValor (array) {
-  let maior = 0;
-  let maiorIn = 0;
+  let maior = array[0];
+  let maiorIn = array[0];
 
   for (let i = 0; i < array.length; i += 1) {
     if (array[i] > maior) {
